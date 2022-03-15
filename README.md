@@ -1,6 +1,6 @@
 # covid-analytics
  
->Instructions for local setrup:
+>Instructions for local setup:
 
 >>Open root folder (covid-analytics)
 >>
