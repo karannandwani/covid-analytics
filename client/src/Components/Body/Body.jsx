@@ -75,7 +75,6 @@ function Body() {
           (item) => item.label !== covidData?.countryData[index].Country
         ),
       }));
-      // console.log(graphData.datasets.length);
       if (graphData.datasets.length === 1) {
         setShowGraph(false);
       }
@@ -150,7 +149,6 @@ function Body() {
     setFrom_date(from_date_temp);
   };
 
-  // sseEffects
 
   useEffect(() => {
     setDefaultDate();

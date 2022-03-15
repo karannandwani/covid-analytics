@@ -12,7 +12,6 @@ function App() {
 
   const fetchData = async () => {
     await axios.get(BaseURL + "/data/getData").then((data) => {
-      // console.log(data.data);
       dispatch({
         type: "SET_COVID_DATA",
         covidData: data.data,

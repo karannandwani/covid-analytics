@@ -14,7 +14,6 @@ function Sidebar() {
     "Analytics",
   ];
   const [clickedOption, setClickedOption] = useState(0);
-  // const [{ covidData }] = useDataLayerValue();
 
   return (
     <div className="Sidebar">
