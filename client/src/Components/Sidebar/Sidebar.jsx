@@ -5,13 +5,13 @@ import { useDataLayerValue } from "../../Datalayer/DataLayer";
 function Sidebar() {
   const sideBarNavOptions = [
     "Dashboard",
-    "Lorem, ipsum.",
-    "Lorem, ipsum.",
-    "Lorem, ipsum.",
-    "Lorem, ipsum.",
-    "Lorem, ipsum.",
-    "Lorem, ipsum.",
-    "Lorem, ipsum.",
+    "This is an",
+    "Excample of Scope",
+    "Replace these tabs",
+    "with different",
+    "types of",
+    "Reports and",
+    "Analytics",
   ];
   const [clickedOption, setClickedOption] = useState(0);
   // const [{ covidData }] = useDataLayerValue();
