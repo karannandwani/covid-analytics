@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 function App() {
   const [{ covidData }, dispatch] = useDataLayerValue();
-  const BaseURL = "https://k0-covid-analytics.herokuapp.com";
+  const BaseURL = "http://localhost:8000";
 
   const fetchData = async () => {
     await axios.get(BaseURL + "/data/getData").then((data) => {
