@@ -1,6 +1,6 @@
 # covid-analytics
  
->###Instructions for local setrup:
+>Instructions for local setrup:
 
 >>Open root folder (covid-analytics)
 >>run "npm i" to install dependencies in the root folder as well as the client/src/ folder.
@@ -10,7 +10,7 @@
 >>Enjoy!
 
 
-##Do let me know your feedback @ karanatwork0@gmail.com
+Do let me know your feedback @ karanatwork0@gmail.com
 
 Here is the deployed website: https://k0-covid-analytics.herokuapp.com/
 
