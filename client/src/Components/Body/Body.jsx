@@ -9,7 +9,7 @@ function Body() {
 
   const [{ covidData, searchRes, searchClicked }] = useDataLayerValue();
   const [selectedItems, setSelectedItems] = useState([]);
-  const BaseURL = "http://localhost:8000";
+  const BaseURL = "https://k0-covid-analytics.herokuapp.com";
   const [showGraph, setShowGraph] = useState(false);
   const [to_date, setTo_date] = useState();
   const [from_date, setFrom_date] = useState();
